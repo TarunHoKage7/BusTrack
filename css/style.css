@@ -10,10 +10,16 @@
   /******************************************
   /* LAYOUT
   /*******************************************/
-#section1{
-    background-image: url("assets/F29A5FAE-B8A8-40E2-B664-71A82A84F525.JPEG");
-    min-height: 80%;
-    background-attachment: fixed;
+
+body{
+    background-image: url("/assets/paper.jpg");
+}
+
+.bgimg{
+    background-image: url("/assets/F29A5FAE-B8A8-40E2-B664-71A82A84F525.JPEG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section1 > h1{
