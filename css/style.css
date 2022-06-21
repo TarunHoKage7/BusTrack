@@ -15,15 +15,39 @@ body{
     background-image: url("/assets/paper.jpg");
 }
 
-.bgimg{
+nav{
+    display: block;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav li{
+    display: inline;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.bgImg{
     background-image: url("/assets/F29A5FAE-B8A8-40E2-B664-71A82A84F525.JPEG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#section1 > h1{
+#section1{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#section1 > *{
     text-align: center;
+    background-color: rgb(201, 203, 194);
+    border: 0 solid black;
+    border-radius: 5%;
+    max-width: fit-content;
+    margin: auto;
 }
   
   /******************************************
