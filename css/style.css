@@ -13,21 +13,44 @@
 
 body{
     background-image: url("/assets/paper.jpg");
+    z-index: 0;
 }
 
 nav{
     display: block;
-    margin-bottom: 20px;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
+}
+
+nav *{
+    display: inline;
+    border: 1px solid aliceblue;
+    list-style-type: none;
+    padding: 3px;
+    margin: 10px;
+}
+
+nav > img{
+    position: fixed;
+    left: 35%;
+    color: aliceblue;
+    background-color: rgb(36, 37, 44);
+}
+
+nav > ul{
+    position: fixed;
+    right: 0;
 }
 
 nav li{
-    display: inline;
-    border: 1px solid black;
-    list-style-type: none;
-    
+    background-color: rgb(36, 37, 44);
+    color: aliceblue;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .bgImg{
@@ -35,22 +58,34 @@ nav li{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 #section1{
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 45px;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 #section1 > *{
+    display: block;
     text-align: center;
     background-color: rgb(201, 203, 194);
     border: 0 solid black;
     border-radius: 5%;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     margin: auto;
 }
-  
+
+#section1 a{
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 100px;
+    border-radius: 55%;
+    padding: 25px;
+    background-color: bisque;
+} 
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
