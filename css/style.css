@@ -45,6 +45,7 @@ nav > img{
 nav > ul{
     position: fixed;
     right: 0;
+    border: 3px solid yellow;
 }
 
 nav li{
@@ -108,7 +109,8 @@ nav li{
 
 /*section2 begins*/
 #section2{
-    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 600px;
 }
 
 /*section2 ends*/
@@ -134,6 +136,11 @@ nav li{
     margin-left: 8%;
     float: left;
 
+}
+
+#or{
+    display: block;
+    margin-left: 8%;
 }
 
 /* driveSec ends*/
