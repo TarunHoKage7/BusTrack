@@ -27,6 +27,11 @@ nav{
     z-index: 2;
 }
 
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 nav *{
     display: inline;
     border: 1px solid aliceblue;
@@ -133,14 +138,14 @@ nav li{
 #driveSec{
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 8%;
+    margin-left: 20%;
     float: left;
 
 }
 
 #or{
     display: block;
-    margin-left: 8%;
+    margin-left: 20%;
 }
 
 /* driveSec ends*/
@@ -157,6 +162,12 @@ footer{
 footer > ul{
     margin: 0 0;
     list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
 }
 
 /* footer ends*/
