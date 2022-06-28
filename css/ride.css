@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+html,body{
+    margin: 0 0;
+    scroll-behavior: smooth;
+}
+
+/*liveMap begins*/
+#liveMap{
+    width: 50%;
+    height: 100%;
+    position:fixed;
+    background-color: aqua;
+    left: 0;
+    top: 0;
+}
+
+#liveMap > iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*liveMap ends*/
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
